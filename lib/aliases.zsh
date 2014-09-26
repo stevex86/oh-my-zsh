@@ -4,6 +4,8 @@ alias po='popd'
 
 # Basic directory operations
 alias ...='cd ../..'
+alias ....='cd ../../..'
+alias .....='cd ../../../..'
 alias -- -='cd -'
 
 # Super user
@@ -32,4 +34,7 @@ alias ll='ls -lh'
 alias la='ls -lAh'
 
 alias afind='ack-grep -il'
+
+# Sublime text alias
+alias sb='sublime'
 
