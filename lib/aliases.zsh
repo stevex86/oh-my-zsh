@@ -37,7 +37,7 @@ alias la='ls -lAh'
 
 alias afind='ack-grep -il'
 
-# Sublime text alias
+# Sublime Text alias
 alias sb='sublime'
 
 # Git
@@ -46,3 +46,6 @@ alias gpushom='git push origin master'
 alias gpullom='git pull origin master'
 alias gch='git checkout'
 alias gchm='git checkout master'
+
+# Quick and Dirty Java compilation
+alias jvca='javac *.java'
