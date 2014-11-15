@@ -63,8 +63,7 @@ function _git_time_since_commit() {
           commit_age="${minutes}m"
       fi
 
-      color=$ZSH_THEME_GIT_TIME_SINCE_COMMIT_NEUTRAL
-      echo "$color$commit_age%{$reset_color%}"
+      echo "$commit_age%{$reset_color%}"
     fi
   fi
 }

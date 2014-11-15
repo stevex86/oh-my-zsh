@@ -7,6 +7,8 @@ alias ...='cd ../..'
 alias ....='cd ../../..'
 alias .....='cd ../../../..'
 alias -- -='cd -'
+alias rmrf='rm -rf'
+alias mkdr='mkdir'
 
 # Super user
 alias _='sudo'
@@ -38,3 +40,9 @@ alias afind='ack-grep -il'
 # Sublime text alias
 alias sb='sublime'
 
+# Git
+alias gist='git status'
+alias gpushom='git push origin master'
+alias gpullom='git pull origin master'
+alias gch='git checkout'
+alias gchm='git checkout master'
