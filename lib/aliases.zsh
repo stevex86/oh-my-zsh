@@ -49,3 +49,6 @@ alias gchm='git checkout master'
 
 # Quick and Dirty Java compilation
 alias jvca='javac *.java'
+
+# thefuck
+alias fuck='thefuck'
